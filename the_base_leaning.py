@@ -11,7 +11,7 @@ x = 3.4
 s = str(x)#Convert a folat(interger) to string
 print(s,end='\n')
 
---------------string operrator----------------
+#--------------string operrator----------------
 string concatenation(zi fu chuan pin jie)
 message='sxl '+'is'+' a good boy '
 print(message)
@@ -49,11 +49,11 @@ print(a.lower())
 strip()method is remove the whitespace form string head and end
 s = '\twel co me  \n'
 print(s.strip())
-------------------------------------------------------------
+#------------------------------------------------------------
 
 
 
-------formatting numbers and string-----------
+#------formatting numbers and string-----------
 amount = 12618.98
 intersestRate = 0.0013
 interest = amount*intersestRate
