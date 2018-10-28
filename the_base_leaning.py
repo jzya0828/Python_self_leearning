@@ -89,5 +89,5 @@ print(format(59832,'<10x'))
 print(format('welcome to python','20s'))#string mo ren zuo duiqi
 print(format('welcome','<20s'))
 print(format('welcome','>20s'))
--------------------------------------------------------------
+#-------------------------------------------------------------
 
