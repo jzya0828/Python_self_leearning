@@ -5,7 +5,7 @@ print(random.randint(0,10))
 print(random.randrange(0,11))#randint(a,b+1)is
 # equivalent to randrange(a,b)
 
-----------------if statement------
+#----------------if statement------
 radius = eval(input("please input radius"))#if statement
 if radius>0:
     print('area is ',radius*radius)
@@ -63,7 +63,7 @@ if (number % 2 ==0 or number % 3==0)and \
     #  (number % 2 != 0 or number % 3 != 0 )
     print(number,'is disvisable by 2 or 3 ,but not both')
 
-------------------Condition Expressions-------------
+#------------------Condition Expressions-------------
 the syntax is:expression_1 if booean-expression else expression_2
 x=eval(input('input x'))
 if x>0:
