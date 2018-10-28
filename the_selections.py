@@ -1,3 +1,31 @@
+#--------------------------selection--------------------------
+
+radius = eval(input('please radius'))#if else selection
+if radius <0:
+    print("incorrect input")
+else:
+    print('radius is \n',+radius)
+
+radius =  1#boolean types ,values,...
+print(radius>0)
+
+light = True
+print(light)
+
+print(int(True))
+print(int(False))
+
+
+print(bool(0))#not 0 use print(bool())is True
+print(bool(1))
+print(bool(4))
+print(bool(-1))
+
+import random
+number1 = random.randint(0,9)
+number2 = random.randint(0,9)
+answer = eval(input('what is '+str(number1)+'+'+str(number2)+'?'))
+print(number1,'+',number2,'+','=',answer,'is',number1+number2==answer)
 import random
 print(random.random())
 print(random.randint(0,1))
