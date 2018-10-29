@@ -1,5 +1,5 @@
---------------------Loops-------
-----the while loops
+#--------------------Loops-------
+#----the while loops
 count = 0
 while count<10:
     print(count,'Programingis fun')
