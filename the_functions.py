@@ -48,32 +48,32 @@ enroll('sxl',90)
 enroll('sxl1',78,adress='xian')
 #the positional arguement cannot after any keywords arguements
 
-# #Default Arguments
-# def printArea(width = 1,height = 2):
-#     area= width * height
-#     print('width:',width,'\theight',height,'\tarea:',area)
-#
-# printArea()
-# printArea(4,2.5)
-# printArea(height = 5,width = 3)
-# printArea(width = 1.2)
-# printArea(height = 6.2)
+#Default Arguments
+def printArea(width = 1,height = 2):
+    area= width * height
+    print('width:',width,'\theight',height,'\tarea:',area)
 
-#Returning Multiple Values
+printArea()
+printArea(4,2.5)
+printArea(height = 5,width = 3)
+printArea(width = 1.2)
+printArea(height = 6.2)
 
-# def sort(number1, number2):
-#     if number1 < number2:
-#         return number1, number2
-#     else:
-#         return number2, number1
-#
-# n1,n2 = sort(3,2)
-# print('n1 is ',n1)
-# print('n2 is ',n2)
+#---Returning Multiple Values
 
-# def f(x,y):
-#     return x+y,x-y,x*y,x/y
-#
-# t1,t2,t3,t4=f(9,5)
-# print(t1,t2,t3,t4)
+def sort(number1, number2):
+    if number1 < number2:
+        return number1, number2
+    else:
+        return number2, number1
+
+n1,n2 = sort(3,2)
+print('n1 is ',n1)
+print('n2 is ',n2)
+
+def f(x,y):
+    return x+y,x-y,x*y,x/y
+
+t1,t2,t3,t4=f(9,5)
+print(t1,t2,t3,t4)
 
